@@ -1,0 +1,80 @@
+
+Deck shuffled. Ready to start!
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+Starting the first round...
+
+Drawing 16 cards:
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+	🃍	🂪	🃑	🂳
+	🃄	🃗	🃖	🃎
+	🃇	🃕	🃊	🃝
+	🃁	🂨	🂹	🃆
+
+Removing 3 picture cards:
+		🂪	🃑	🂳
+	🃄	🃗	🃖
+	🃇	🃕	🃊
+	🃁	🂨	🂹	🃆
+
+Drawing 3 cards:
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+	🂢	🂪	🃑	🂳
+	🃄	🃗	🃖	🂷
+	🃇	🃕	🃊	🂩
+	🃁	🂨	🂹	🃆
+
+After shuffling, starting the second round...
+
+Drawing 16 cards:
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+	🂹	🂡	🂵	🃄
+	🂸	🃘	🃕	🃗
+	🃑	🃁	🂷	🂨
+	🂲	🂥	🃔	🂱
+
+After shuffling, starting the third round...
+
+Drawing 16 cards:
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+	🂴	🂶	🂭	🃋
+	🂻	🂧	🃇	🃄
+	🂣	🃁	🂥	🂳
+	🂩	🃔	🃒	🃙
+
+Removing 3 picture cards:
+	🂴	🂶
+		🂧	🃇	🃄
+	🂣	🃁	🂥	🂳
+	🂩	🃔	🃒	🃙
+
+Drawing 3 cards:
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+	🂴	🂶	🂪	🃕
+	🂦	🂧	🃇	🃄
+	🂣	🃁	🂥	🂳
+	🂩	🃔	🃒	🃙
+
+After shuffling, starting the fourth round...
+
+Drawing 16 cards:
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+	🃄	🂤	🂡	🂹
+	🃒	🂥	🃙	🂫
+	🂵	🂱	🂦	🃅
+	🃃	🃁	🂢	🃆
+
+Removing 1 picture card:
+	🃄	🂤	🂡	🂹
+	🃒	🂥	🃙
+	🂵	🂱	🂦	🃅
+	🃃	🃁	🂢	🃆
+
+Drawing 1 card:
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+	🃄	🂤	🂡	🂹
+	🃒	🂥	🃙	🃕
+	🂵	🂱	🂦	🃅
+	🃃	🃁	🂢	🃆
+
+You removed only 7 picture cards. You lost! 😞

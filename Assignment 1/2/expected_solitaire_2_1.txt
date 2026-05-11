@@ -1,0 +1,70 @@
+Enter an integer to pass to the seed() function: 0
+
+You could not place 15 cards. You lost! 😞
+
+There are 779 lines of output. What do you want me to do?
+
+Enter: q to quit
+       a last line number (between 1 and 779)
+       a first line number (between -1 and -779)
+       a range of line numbers (of the form m--n with 1 <= m <= n <= 779)
+       Q
+
+Enter: q to quit
+       a last line number (between 1 and 779)
+       a first line number (between -1 and -779)
+       a range of line numbers (of the form m--n with 1 <= m <= n <= 779)
+       +1
+
+Enter: q to quit
+       a last line number (between 1 and 779)
+       a first line number (between -1 and -779)
+       a range of line numbers (of the form m--n with 1 <= m <= n <= 779)
+             1
+
+Deck shuffled. Ready to start!
+
+Enter: q to quit
+       a last line number (between 1 and 779)
+       a first line number (between -1 and -779)
+       a range of line numbers (of the form m--n with 1 <= m <= n <= 779)
+       1---3
+
+Enter: q to quit
+       a last line number (between 1 and 779)
+       a first line number (between -1 and -779)
+       a range of line numbers (of the form m--n with 1 <= m <= n <= 779)
+       1--780
+
+Enter: q to quit
+       a last line number (between 1 and 779)
+       a first line number (between -1 and -779)
+       a range of line numbers (of the form m--n with 1 <= m <= n <= 779)
+       1  --  3
+
+Deck shuffled. Ready to start!
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+
+Enter: q to quit
+       a last line number (between 1 and 779)
+       a first line number (between -1 and -779)
+       a range of line numbers (of the form m--n with 1 <= m <= n <= 779)
+       - 4
+
+Enter: q to quit
+       a last line number (between 1 and 779)
+       a first line number (between -1 and -779)
+       a range of line numbers (of the form m--n with 1 <= m <= n <= 779)
+       -4
+
+
+[[[[[[[[[[[[[[🃘
+    [[[[🂵          [[🃃            [[[🃔           [[[[🂥
+    [[[[[[[🂶                      [[[🃚           [[[[[[[🂦
+
+Enter: q to quit
+       a last line number (between 1 and 779)
+       a first line number (between -1 and -779)
+       a range of line numbers (of the form m--n with 1 <= m <= n <= 779)
+       q
