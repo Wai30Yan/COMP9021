@@ -17,5 +17,16 @@
 #    5  . . . . .
 
 def f2(L, i, j, major=True):
+    total_sum = 0
+    r_start, c_start = i - 1, j - 1
+    target = abs(i - j) if major else sum(i,j)
+    for r in range(len(L)):
+        for c in range(len(L)):
+            if major:
+                if target == r+c+2:
+                    total_sum += L[r][c]
+            else:
+                if target == r-c:
+                    pass
     return 0
     # REPLACE THE RETURN STATEMENT ABOVE WITH YOUR CODE
