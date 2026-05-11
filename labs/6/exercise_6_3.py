@@ -32,5 +32,14 @@
 # The argument L must not be modified by the function.
 
 def f3(L, half='top'):
+    N = len(L)
+
+    res = [row[:] for row in L]
+
+    for r in range(N // 2):
+        for c in range(N):
+            r_opp = N - 1 - r
+            c_opp = N - 1 - c
+            partner = L[r_opp][c_opp]
     return []
     # REPLACE THE RETURN STATEMENT ABOVE WITH YOUR CODE
