@@ -18,5 +18,19 @@
 # the first one.
 
 def f1():
-    pass
+    while True:
+        print(" /\\")
+        print("/  \\")
+        yield 
+        print('----')
+        yield 
+        print('\\  /')
+        print(' \\/')
+
+        yield 
+        print(' ||')
+        print(' ||')
+        yield
     # REPLACE THE PASS STATEMENT ABOVE WITH YOUR CODE
+
+f1()

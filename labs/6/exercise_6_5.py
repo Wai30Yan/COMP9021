@@ -23,5 +23,23 @@
 import numpy as np
 
 def f5(L):
-    pass
+    A = np.array(L)
+    rows, cols = A.shape
+    row_sums = np.sum(A, axis=1)
+    col_sums = np.sum(A, axis=0)
+
+    for i in range(rows):
+        line = []
+        for j in range(cols):
+            total = row_sums[i] + col_sums[j] - A[i, j]
+
+            if total == 0:
+                line.append("🟦")
+            elif total > 0:
+                line.append("🟩")
+            else:
+                line.append("🟥")
+        
+        # Print the line as a string
+        print("".join(line))
     # REPLACE THE PASS STATEMENT ABOVE WITH YOUR CODE

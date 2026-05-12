@@ -11,3 +11,14 @@ import csv
 from collections import defaultdict
 
 # INSERT YOUR CODE HERE
+result = defaultdict(int)
+with open('customers-100.csv', 'r') as f:
+    reader = csv.reader(f)
+    next(reader)
+    for row in reader:
+        result[row[6]] += 1
+        
+sorted_list = sorted(result.keys())
+
+for i in sorted_list:
+    print(result[i], ' from ' , i)

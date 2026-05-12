@@ -24,7 +24,32 @@
 from math import sqrt
 
 # DEFINE TWO CLASSES THAT DERIVE FROM EXCEPTION
+class IntError(Exception):
+    pass
+
+class PrimeError(Exception):
+    pass
 
 class Modulo:
-    pass
+    r, p = 0, 0
+
+    def __init__(self, k, p):
+        if not isinstance(k, int):
+            raise IntError(f"{k} is not an integer")
+        if not isinstance(p, int) or p < 2 or self.prime_check(p) == False:
+            raise PrimeError(f"{p} is not a prime number")
+        self.p = p
+        self.r = k % p
+
+    def prime_check(self, n):
+        for i in range(2, int(sqrt(n))+1):
+            if n % i == 0:
+                return False
+        return True
+    
+    def __repr__(self):
+        return f"Modulo({self.r}, {self.p})"
+    
+    def __str__(self):
+        return f"{self.r} (mod {self.p})"
     # REPLACE THE PASS STATEMENT ABOVE WITH YOUR CODE

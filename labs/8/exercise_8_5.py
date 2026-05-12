@@ -49,3 +49,37 @@
 # and Square.
 
 # DEFINE THE Polygon, Rectangle and Square CLASSES
+from math import sqrt
+class Polygon:
+    def __init__(self, points):
+        print('I am a polygon')
+        self.nb_of_vertices = len(points)
+        self.points = points
+
+    def area(self):
+        print('Computed using the shoelace formula')
+        area_sum = 0
+        for i in range(self.nb_of_vertices):
+            nxt = (i + 1) % self.nb_of_vertices
+            area_sum += (self.points[i][0] * self.points[nxt][1]) - (self.points[nxt][0] * self.points[i][1])
+        area_sum = abs(area_sum) / 2
+        return area_sum
+
+class Rectangle(Polygon):
+    def __init__(self, points):
+        super().__init__(points)
+        print('More precisely, I am a rectangle')
+
+    def area(self):
+        print('I could compute it more easily, but well, I leave it to Polygon...')
+        return super().area()
+
+class Square(Rectangle):
+    def __init__(self, points):
+        super().__init__(points)
+        print('Even more precisely, I am a square')
+    
+    def area(self):
+        print('I compute it myself!')
+        distance = sqrt((self.points[0][0] - self.points[1][0])**2+(self.points[0][1] - self.points[1][1])**2)
+        return distance
